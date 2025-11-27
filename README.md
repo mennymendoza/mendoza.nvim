@@ -27,7 +27,10 @@ EOF
 sudo apt-get install git make unzip build-essential xclip ripgrep
 ```
 
-5. Install [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).
+5. Run the following command to clone this repository as your Neovim configuration.
+```bash
+git clone https://github.com/mennymendoza/mendoza.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
 
 6. Run the following command to get some helpful aliases.
 ```bash
